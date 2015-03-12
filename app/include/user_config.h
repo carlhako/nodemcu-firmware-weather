@@ -7,7 +7,7 @@
 #define NODE_VERSION_INTERNAL   0U
 
 #define NODE_VERSION	"NodeMCU 0.9.5"
-#define BUILD_DATE	    "build 20150213"
+#define BUILD_DATE	    "carlhako mod build 120315"
 
 // #define DEVKIT_VERSION_0_9 1 	// define this only if you use NodeMCU devkit v0.9
 
@@ -59,15 +59,15 @@
 #define LUA_USE_MODULES_GPIO
 #define LUA_USE_MODULES_WIFI
 #define LUA_USE_MODULES_NET
-#define LUA_USE_MODULES_PWM
-#define LUA_USE_MODULES_I2C
-#define LUA_USE_MODULES_SPI
+//#define LUA_USE_MODULES_PWM
+//#define LUA_USE_MODULES_I2C
+//#define LUA_USE_MODULES_SPI
 #define LUA_USE_MODULES_TMR
-#define LUA_USE_MODULES_ADC
+//#define LUA_USE_MODULES_ADC
 #define LUA_USE_MODULES_UART
 #define LUA_USE_MODULES_OW
 #define LUA_USE_MODULES_BIT
-#define LUA_USE_MODULES_MQTT
+//#define LUA_USE_MODULES_MQTT
 // #define LUA_USE_MODULES_WS2812	// TODO: put this device specific module to device driver section.
 #endif /* LUA_USE_MODULES */
 
@@ -77,7 +77,7 @@
 #endif /* LUA_USE_DEVICE_DRIVER */
 
 
-// #define LUA_NUMBER_INTEGRAL
+#define LUA_NUMBER_INTEGRAL
 
 #define LUA_OPTRAM
 #ifdef LUA_OPTRAM
